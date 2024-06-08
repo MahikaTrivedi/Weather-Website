@@ -4,8 +4,8 @@ document.getElementById('search-btn').addEventListener('click', () => {
 });
 
 async function getWeather(city) {
-    const weatherApiKey = 'd6d4fe448ef502f3ee113807cd626a06'; // Replace with your OpenWeatherMap API key
-    const unsplashApiKey = 'LknVkOQ7C81fuIS2ASO4SLsHTX9WBVMku7ZmXbDrOPw'; // Replace with your Unsplash API key
+    const weatherApiKey = 'd6d4fe448ef502f3ee113807cd626a06'; 
+    const unsplashApiKey = 'LknVkOQ7C81fuIS2ASO4SLsHTX9WBVMku7ZmXbDrOPw'; 
     const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${weatherApiKey}&units=metric`;
 
     try {
